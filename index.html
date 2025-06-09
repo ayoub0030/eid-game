@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ayoub El Mouden </title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #2d3748;
+            background-color: #f7fafc;
+        }
+        .container {
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: #1a202c;
+        }
+        .section-heading {
+            border-bottom: 2px solid #4299e1;
+            padding-bottom: 0.25rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: #2b6cb0;
+        }
+        .accent-color {
+            color: #2b6cb0;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 0.75rem;
+            height: 0.75rem;
+            border-radius: 50%;
+            background-color: #4299e1;
+        }
+        .timeline-item:after {
+            content: "";
+            position: absolute;
+            left: 0.35rem;
+            top: 1.25rem;
+            width: 0.125rem;
+            height: calc(100% - 0.5rem);
+            background-color: #a0aec0;
+        }
+        .timeline-item:last-child:after {
+            display: none;
+        }
+        .skill-badge {
+            display: inline-block;
+            background-color: #ebf5ff;
+            color: #2b6cb0;
+            border-radius: 9999px;
+            padding: 0.25rem 0.75rem;
+            margin: 0.25rem;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body class="py-8">
+    <div class="container p-8">
+        <!-- En-tête -->
+        <header class="mb-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h1 class="text-3xl font-bold mb-1">Ayoub El Mouden</h1>
+                    <h2 class="text-xl font-semibold text-blue-600 mb-2">Spécialiste IA & Développeur Full Stack</h2>
+                </div>
+                <div class="text-gray-600">
+                    <p class="flex items-center mb-1"><i class="fas fa-envelope w-5 mr-2"></i> ayoub.elmeo@gmail.com</p>
+                    <p class="flex items-center mb-1"><i class="fas fa-phone w-5 mr-2"></i> +212 649483719</p>
+                    <p class="flex items-center mb-1"><i class="fas fa-map-marker-alt w-5 mr-2"></i> Casablanca, Maroc</p>
+                    <p class="flex items-center mb-1"><i class="fas fa-globe w-5 mr-2"></i> https://ayoubelmouden.vercel.app</p>
+                    <p class="flex items-center mb-1"><i class="fab fa-linkedin w-5 mr-2"></i> <a href="http://">    linkedin.com/in/ayoub-el-mouden    </a>   </p>  
+                </div>
+            </div>
+        </header>
+
+        <!-- Résumé Professionnel 
+        <section class="mb-6">
+            <h3 class="section-heading text-lg">Profil Professionnel</h3>
+          <p class="text-justify">
+                //a modifier parler sur moi  jaiame lentropreunaria t ect ..   et jaime lai agent ect ...   Passionné par l'intelligence artificielle et le développement de systèmes innovants, je combine expertise technique et vision stratégique pour créer des solutions IA adaptées aux besoins locaux. Vainqueur de 5 hackathons et spécialiste des agents IA, je me consacre à l'innovation technologique pour un Maroc digitalement souverain. Mon objectif est de contribuer activement au développement d'un écosystème d'IA marocain performant et responsable, en ligne avec la mission de MoorAI.
+            </p>
+        </section> -->
+
+        <!-- Formation -->
+        <section class="mb-6">
+            <h3 class="section-heading text-lg">Formation</h3>
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">Master en Big Data & IoT</h4>
+                    <p>2024 - 2026</p>
+                </div>
+                <p class="text-gray-600">ENSAM Casablanca</p>
+                <p class="text-sm">Spécialisation en traitement de données massives, déploiement de modèles IA et solutions IoT connectées</p>
+            </div>
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">Licence en Mathématiques et Informatique</h4>
+                    <p>2023 - 2024</p>
+                </div>
+                <p class="text-gray-600">Faculté des Sciences Ben M'Sik, Casablanca</p>
+                <p class="text-sm">Focus sur l'apprentissage automatique et les algorithmes avancés</p>
+            </div>
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">DEUG en Sciences Mathématiques et Informatiques</h4>
+                    <p>2021 - 2023</p>
+                </div>
+                <p class="text-gray-600">Faculté des Sciences Ben M'Sik, Casablanca</p>
+                <p>Compétences en sciences complémentaires pour diverses disciplines</p>
+            </div>
+        </section>
+
+        <!-- Projets et Expérience -->
+        <section class="mb-6">
+            <h3 class="section-heading text-lg">Projets & Expériences</h3>
+          
+            
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">BrightPath - Personalized EdTech Platform </h4>
+                    <p>2025</p>
+                </div>
+                <ul class="list-disc list-inside text-sm">
+                    <li>Développé une plateforme éducative propulsée par l'IA permettant aux parents de personnaliser les parcours d'apprentissage de leurs enfants</li>
+                    <li>Amélioré l'engagement des utilisateurs grâce à l'implémentation d'un système de récompenses gamifié</li>
+                    <li>Intégré des algorithmes d'IA adaptatifs réduisant le temps nécessaire aux parents pour créer des plans d'apprentissage personnalisés 45%</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">Edu-Desk - Smart School Monitor</h4>
+                    <p>2025</p>
+                </div>
+                <ul class="list-disc list-inside text-sm">
+                    <li>Conçu une solution innovante de surveillance pour la sécurité numérique et l'intégrité académique dans les établissements scolaires</li>
+                    <li>Implémenté des systèmes de détection de menaces qui réduisant les incidents de sécurité </li>
+                    <li>Créé un tableau de bord analytique permettant de suivre l'engagement des élèves tout en garantissant la confidentialité des données</li>
+                </ul>
+            </div>
+       
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">RescueAi - AI-powered voice assistant  </h4>
+                    <p>2025</p>
+                </div>
+                <ul class="list-disc list-inside text-sm">
+                    <li>Développé un assistant vocal intelligent optimisant la gestion des appels d'urgence par l'analyse en temps réel</li>
+                    <li>Réduit de 60% le temps de réponse moyen aux situations d'urgence grâce à des algorithmes de priorisation avancés</li>
+                    <li>Conception d’un système de traitement du langage naturel capable d’identifier avec précision la nature et l’urgence des appels grâce à la détection des émotions.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h4 class="font-semibold">Perfect Prompt - Agent IA contextuel</h4>
+                    <p>2024</p>
+                </div>
+                <ul class="list-disc list-inside text-sm">
+                    <li>Développé un assistant IA capable d'analyser en temps réel le contenu d'écran et de fournir des réponses contextuelles</li>
+                    <li>Réduit de 40% le temps de recherche d'informations par les utilisateurs</li>
+                    <li>Implémenté des fonctionnalités de protection des données pour garantir la confidentialité des utilisateurs</li>
+                </ul>
+            </div>
+
+        </section>
+
+      <!-- Compétences -->
+<section class="mb-6">
+    <h3 class="section-heading text-lg">Compétences Techniques</h3>
+
+    <div class="mb-3">
+        <h4 class="font-semibold mb-1">Intelligence Artificielle & Data</h4>
+        <div>
+            <span class="skill-badge">Agents intelligents</span>
+            <span class="skill-badge">Machine Learning</span>
+            <span class="skill-badge">Traitement du langage naturel (NLP)</span>
+            <span class="skill-badge">Pipelines de données</span>
+            <span class="skill-badge">Big Data (Spark, Hadoop)</span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <h4 class="font-semibold mb-1">Développement Web & Logiciel</h4>
+        <div>
+            <span class="skill-badge">React.js / Next.js</span>
+            <span class="skill-badge">Node.js / Express.js</span>
+            <span class="skill-badge">Spring Boot</span>
+            <span class="skill-badge">Supabase</span>
+            <span class="skill-badge">APIs REST </span>
+            <span class="skill-badge">Tailwind CSS</span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <h4 class="font-semibold mb-1">Langages de Programmation</h4>
+        <div>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">JavaScript / TypeScript</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">C/C++</span>
+            <span class="skill-badge">SQL / NoSQL</span>
+            <span class="skill-badge">Bash (Linux)</span>
+
+        </div>
+    </div>
+
+    
+
+    <div class="mb-3">
+        <h4 class="font-semibold mb-1">Technologies Complémentaires</h4>
+        <div>
+            <span class="skill-badge">Internet des Objets (IoT)</span>
+            <span class="skill-badge">No-code Tools</span>
+            <span class="skill-badge">Prompt Engineering</span>
+            <span class="skill-badge">Sécurité des données</span>
+            <span class="skill-badge">No-code Automation</span>
+           
+        </div>
+    </div>
+</section>
+
+        <!-- Réalisations -->
+        <section class="mb-6">
+            <h3 class="section-heading text-lg">Réalisations</h3>
+            <ul class="list-disc list-inside">
+                <li><strong>Vainqueur de 5 hackathons</strong> dans des domaines variés tels que l'IA, le développement web et les solutions sociales</li>
+                <li>Contribution au développement de <strong>ScreenPipe projet open-source</strong> ,  de capture continue d’écran et d’audio </li>
+                <li>Conception et développement d’applications intégrant des <strong>agents intelligents</strong> afin d’adresser des problématiques concrètes, en utilisant des technologies no-code.  </li>
+                <li>Création de solutions de <strong>protection des données</strong> adaptées à la réglementation marocaine</li>
+            </ul>
+        </section>
+
+        <!-- Certifications 
+        <section class="mb-6">
+          <h3 class="section-heading text-lg">Certifications</h3>
+          <ul class="list-disc list-inside">
+              <li><strong>Google Cloud Certified Professional Cloud Architect</strong></li>
+              <li><strong>Google Cloud Certified Professional Cloud Engineer</strong></li>
+              <li><strong>Google Cloud Certified Professional Cloud Security Engineer</strong></li>
+              <li><strong>Google Cloud Certified Professional Cloud Security Engineer</strong></li>
+          </ul>
+        </section>-->
+
+
+
+        <!-- Langues -->
+        <section>
+            <h3 class="section-heading text-lg">Langues</h3>
+            <div class="flex flex-wrap">
+                <div class="w-1/2 mb-2">
+                    <p class="font-semibold">Arabe</p>
+                    <div class="flex">
+                      <p>Native</p>
+                    </div>
+                </div>
+                <div class="w-1/2 mb-2">
+                    <p class="font-semibold">Anglais</p>
+                    <div class="flex">
+                      <p>C1 – Courant</p>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <p class="font-semibold">Français</p>
+                    <div class="flex">
+                      <p>B2 – Intermédiaire avancé</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
